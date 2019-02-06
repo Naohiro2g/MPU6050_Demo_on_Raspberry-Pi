@@ -1,5 +1,7 @@
 # MPU-6050 test
 明らかに3.3V接続の方が安定する。5Vだとread errorが時々起きる。
+
+```
 RasPi               MPU-6050
 3.3V     VCC        VCC
 GPIO 2   SDA        GND
@@ -9,6 +11,7 @@ GPIO 3   SCL        SCL
                     ---
                     ---
                     ---
+```
 
 # MPU6050_Demo_on_Raspberry-Pi
 
